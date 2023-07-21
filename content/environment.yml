@@ -1,0 +1,15 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - pandas
+    - astroquery
+    - astropy
+    - scipy
+    - pixell
+    - ipywidgets
